@@ -1,0 +1,532 @@
+/*
+Theme Name:     KadimaYonganvibro
+Theme URI:      http://28story.com/
+Description:    Child theme for the Kadima theme
+Author:         JamesLiao
+Author URI:     http://28story.com/
+Template:       kadima
+Version:        0.1.0
+*/
+.header_section {
+    background-color: #fff !important;
+}
+.head_r {
+    padding-left: 0px;
+    width: 10%;
+    float: right;
+}
+.head_r li {
+    float: right;
+    padding: 0 12px;
+    line-height: 64px;
+    text-align: center;
+}
+.head_r li a {
+    font-size: 12px;
+}
+.head_r li span {
+    display: block;
+    cursor: pointer;
+    font-size: 12px;
+    color: #555;
+}
+.ico {
+    display: inline-block;
+    overflow: hidden;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    background: url(http://www.shantui.com/resources/web/img/ico.png);
+    margin: 0 .3em;
+}
+.head_r li .language {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+}
+.head_r li .language a {
+    display: block;
+    line-height: 32px;
+    height: 32px;
+    color: #5a5a5a;
+}
+
+.logo {
+    float: left;
+}
+.logo a {
+    margin-bottom: 0px !important;
+}
+.panel {
+    border-left: 1px solid #dad2ee !important;
+    border-right: 1px solid #dad2ee !important;
+    border-bottom: 1px solid #dad2ee !important;
+}
+@media (min-width: 1200px)
+#kadima_nav_top.affix {
+    border-bottom: 0px !important;
+}
+@media (max-width: 769px)
+#kadima_nav_top {
+    display: none;
+}
+.navigation_menu {
+    background-color: #006a96 !important;
+    border-top: 0px !important;
+}
+.navbar-default .navbar-nav> li {
+    margin-right: 0px !important;
+}
+.navbar-default .navbar-nav> li> a {
+    color: #fff !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+.navbar-collapse {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.navbar-default .navbar-nav> li> a:hover, .navbar-default .navbar-nav> li> a:focus {
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.navbar-default .navbar-nav> li> a:hover, .navbar-default .navbar-nav> li> a:focus {
+    background-color: #fff !important;
+    font-weight: bold !important;
+    color: #006a96 !important;
+}
+.navbar-default .navbar-nav> .open> a, .navbar-default .navbar-nav> .open> a:hover, .navbar-default .navbar-nav> .open> a:focus {
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.navbar-default .navbar-nav> .open> a, .navbar-default .navbar-nav> .open> a:hover, .navbar-default .navbar-nav> .open> a:focus {
+    background-color: #fff !important;
+}
+.navbar-default .navbar-nav> .active> a, .navbar-default .navbar-nav> .active> a:hover, .navbar-default .navbar-nav> .active> a:focus, .dropdown-menu .active a {
+    background-color: #fff !important;
+    font-weight: bold !important;
+    color: #006a96 !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.dropdown-menu {
+    background-color: #006a96 !important;
+}
+.dropdown-menu> li> a:hover, .dropdown-menu> li> a:focus {
+    color: #fff !important;
+    background-color: #006a96 !important;
+}
+.carousel {
+    margin-bottom: 0px !important;
+}
+.carousel-text .kadima_blog_read_btn {
+    font-size: 16px !important;
+    border: 1px solid #fff !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    margin-bottom: 0px !important;
+}
+.kadima_blog_read_btn:hover {
+    background-color: #fff !important;
+    color: #fefe00 !important;
+}
+.carousel-list li {
+    background: transparent !important;
+    color: #fff !important;
+    font-size: 3em !important;
+    font-weight: 700 !important;
+    line-height: 2em !important;
+    text-shadow: none !important;
+}
+.kadima_service {
+    background-color: #FFFFFF !important;
+    padding-top: 60px !important;
+    padding-bottom: 0px !important;
+}
+.kadima_project_section {
+    background: #fff !important;
+    border-top: 0px solid #fff !important;
+    border-bottom: 0px solid #fff !important;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+.kadima_blog_wrapper {
+    margin-bottom: 2em !important;
+    margin-top: 2em !important;
+}
+.blog-sep.header-sep {
+    margin-top: 0px !important;
+    margin-bottom: 10px !important;
+}
+.kadima_blog_area {
+    background-image: url("./images/back_01.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.kadima_blog_area-new {
+    padding-top: 50px !important;
+    padding-bottom: 70px !important;
+    background-color: #006a96 !important;
+}
+.kadima_blog_full {
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+.kadima_blog_thumb_wrapper {
+    background: #fff;
+    border-bottom: 5px solid #006a96 !important;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .7);
+}
+.kadima_blog_thumb_wrapper h2:hover a {
+    color: #006a96 !important;
+}
+.kadima_blog_thumb_wrapper h2 a:hover {
+    color: #006a96 !important;
+}
+.kadima_blog_thumb_wrapper h2 a {
+    color: #006a96 !important;
+    transition: all 0.4s ease 0s;
+}
+.kadima_heading_title {
+    margin: 0px 0 20px !important;
+}
+.kadima_heading_title_new {
+    margin: 0px 0 30px !important;
+    text-align:center;
+}
+.kadima_heading_title h3 {
+    border-bottom: 0px !important;
+    color: #006996 !important;
+}
+.kadima_footer_area {
+    background: #000 !important;
+    height: 100% !important;
+    padding: 0px !important;
+    border-top: 2px #006a96 solid !important;
+}
+.kadima_footer_area p {
+    color: #f2f2f2 !important;
+    font-size: 14px !important;
+}
+.kadima_footer_widget_column {
+    padding-top:20px;
+    margin-bottom: 10px !important;
+}
+.kadima_footer_widget_column h3 {
+    color:#fff;
+}
+.kadima_footer_widget_column .product-categories .cat-item {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.kadima_footer_copyright_info p {
+    text-align:left;
+    margin-bottom:0px;
+}
+.kadima_footer_social_div {
+    float: none !important;
+    background-color: #fff;
+}
+.social {
+    /* display: block; */
+    text-align: center !important;
+    padding-left: 0px !important;
+    /* padding-top: 5px; */
+    /* padding-bottom: 5px; */
+}
+.social i {
+    color: #428bca !important;
+}
+.social i:hover {
+    color: #fff !important;
+}
+.social li.facebook:hover, .social li.twitter:hover, .social li.linkedin:hover, .social li.youtube:hover {
+    color: #fff;
+}
+
+.kadima_post_date {
+    background: #006a96 !important;
+}
+.kadima_blog_post_content p {
+    color: #333 !important;
+}
+.kadima_fuul_blog_detail_padding h2 a, .kadima_fuul_blog_detail_padding h2 {
+    color: #006a96 !important;
+    font-size: 24px !important;
+}
+.kadima_fuul_blog_detail_padding h2 a:hover {
+    color: #006a96 !important;
+}
+.kadima_sidebar_widget {
+    border-left: 1px solid #006a96 !important;
+    border-right: 1px solid #006a96 !important;
+    border-bottom: 1px solid #006a96 !important;
+}
+.kadima_sidebar_widget ul {
+    padding-left: 5px;
+}
+.kadima_sidebar_widget_title {
+    background: #006a96 !important;
+}
+.kadima_sidebar_widget_title h2 {
+    font-family: 'Arimo', Arial, Helvetica, sans-serif !important;
+    font-size: 18px !important;
+}
+
+.woocommerce div.product .product_title {
+    font-family: Georgia !important;
+}
+.woocommerce div.product p.price, .woocommerce div.product span.price {
+    color: #ff002a !important;
+}
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+    background-color: #ffeded !important;
+    color: #ff002a !important;
+    border: 1px solid #ff002a;
+    border-radius: 0px !important;
+    margin-top: 0px !important;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs {
+    margin: 0 !important;
+}
+.woocommerce div.product .woocommerce-tabs .panel {
+    padding: 1em !important;
+}
+.woocommerce div.product form.cart, .woocommerce div.product p.cart {
+    margin-bottom: 1em !important;
+}
+.woocommerce div.product div.images img {
+    border: 1px solid #c2c2c2 !important;
+}
+.woocommerce span.onsale {
+    background-color: #ff002a !important;
+}
+.wpb_wl_preview_area .wpb_wl_preview {
+    background: #ff002a !important;
+}
+
+.addtoany_share_save_container {
+    text-align: center;
+}
+input.wpi-button {
+    border-radius: 0px !important;
+    font-weight: normal !important;
+    padding: 0px !important;
+    float: none !important;
+    width: 178px !important;
+    height: 38px !important;
+    line-height: 38px !important;
+    background-color: #c40000 !important;
+    border: 1px solid #c40000 !important;
+    color: #fff !important;
+}
+
+.banner{padding-bottom:50%;}
+.banner .arrs{display:none;}
+.chan_tit{width:100%;margin: 0 auto 30px}
+.chan_tit .tit{font-size:25px;}
+.cent_box1 .chan_tit{width:100%;}
+.i_prolist .prolist li,.cen_zt_list li{margin-bottom: 10px;}
+.i_prolist .prolist li,.i_prolist .prolist li.cur{width:100%;background-size: cover!important;}
+.cen_zh_list .fadeInRight .span-6{margin-bottom:20px;}
+.v-keys{padding:40px 0;}
+.i_prolist .prolist li{ float:left;height:372px; width:20%; position:relative;cursor:pointer;transition: all 0.5s ease;}
+.i_prolist .prolist li.cur{width: 40%;background-size: cover!important;}
+.i_prolist .prolist li a{display: block;position: relative;height: 100%;padding: 0 10%;}
+.i_prolist .prolist li .prolist-li{ width:100%; height:100%; position:absolute; top:0; left:0; z-index:5; background: url(http://www.shantui.com/resources/web/img/black.4.png);}
+.i_prolist .prolist li ._info{ position:absolute; left:0; bottom:0; width:100%;overflow:hidden; z-index: 7;}
+.i_prolist .prolist li ._info .p{ display:none; font-size:13px;}
+.i_prolist .prolist li.cur ._info a *{ cursor:pointer;}
+.i_prolist .prolist li ._info ._cn{ position:relative; line-height: 2em;}
+.i_prolist .prolist li ._info ._cn ._cns{ font-size:16px; font-weight:normal; color:#fff; position:relative;}
+.i_prolist .prolist li ._info ._cn ._cns:before{ content:''; width:40px; height:3px; background-color:#fff;position: absolute;bottom: -10px;left: 0;}
+.i_prolist .prolist li ._info .big{ font-weight:bold;font-size:24px;color: #fff;line-height: 35px;margin-bottom: 5px; display:none;}
+.i_prolist .prolist li ._info .big .yellow{ color:#fff000;}
+.i_prolist .prolist li ._info ._cn ._b{ color:#fff; display:none;position: absolute;left: 50%;margin-left: 63px;top: -12px;}
+.i_prolist .prolist li ._info ._en{ color:#fff;}
+.i_prolist .prolist li ._info ._en .p11{  display:inline-block; width:15px; height:15px; vertical-align:middle;}
+.i_prolist .prolist li.cur .prolist-li{ display:none;}
+.i_prolist .prolist li.cur ._info ._cn ._cns{ font-size:20px;}
+.i_prolist .prolist li.cur ._info ._cn ._b{ display:block;}
+.i_prolist .prolist li.cur ._info a{ padding: 4% 11%;height: 86%;}
+.i_prolist .prolist li.cur ._info{ background:rgba(0,106,150,.80);height: 190px;text-align:left;}
+.i_prolist .prolist li.cur ._info .p{ display:block; color:#fff;}
+.i_prolist .prolist li.cur ._info ._cn ._cns:before,.i_prolist .prolist li.cur ._info .big{ display:block;}
+.i_prolist .prolist li.cur ._info ._cn{line-height: 65px;}
+.i_prolist ul { padding-left: 0; list-style-type: none;}
+.i_prolist a { -webkit-transition: all 0.3s ease; transition: all 0.3s ease; text-decoration: none; outline: 0;}
+.triangle-down {
+    width:100%;
+    height:0;
+    border-left:49vw solid #006a96;
+    border-right:49vw solid #006a96;
+    border-top:6vw solid transparent;
+}
+.triangle-downnews {
+    width:100%;
+    height:0;
+    background-size:cover;
+    background-position:center;
+    height:6vw;
+    background-image: url('./images/back_02.jpg');
+}
+.triangle-downnews-bg {
+    background-color:rgba(0, 106, 150, 0.7);
+}
+.triangle-downnews-h {
+    width:100%;
+    height:0;
+    border-left:49vw solid #fff;
+    border-right:49vw solid #fff;
+    border-top:6vw solid transparent;
+}
+
+
+/* Common style */
+.figure-grid figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	background: TRANSPARENT;
+	text-align: center;
+}
+
+.figure-grid figure img {
+	position: relative;
+	opacity: 0.9;
+}
+
+.figure-grid figure figcaption {
+	padding: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.figure-grid figure figcaption::before,
+.figure-grid figure figcaption::after {
+	pointer-events: none;
+}
+
+.figure-grid figure figcaption,
+.figure-grid figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.figure-grid figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.figure-grid figure h2 {
+	word-spacing: -0.15em;
+	font-weight: 300;
+}
+
+.figure-grid figure h2 span {
+	font-weight: 800;
+}
+
+.figure-grid figure h2,
+.figure-grid figure p {
+	margin: 0;
+}
+
+.figure-grid figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
+/* Individual effects */
+/*---------------*/
+/***** Sadie *****/
+/*---------------*/
+
+figure.effect-sadie figcaption::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: -webkit-linear-gradient(top, rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%);
+	background: linear-gradient(to bottom, rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%);
+	content: '';
+	opacity: 0;
+	-webkit-transform: translate3d(0,50%,0);
+	transform: translate3d(0,50%,0);
+}
+
+figure.effect-sadie h2 {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	color: #484c61;
+	-webkit-transition: -webkit-transform 0.35s, color 0.35s;
+	transition: transform 0.35s, color 0.35s;
+	-webkit-transform: translate3d(0,-50%,0);
+	transform: translate3d(0,-50%,0);
+}
+
+figure.effect-sadie figcaption::before,
+figure.effect-sadie p {
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-sadie p {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 2em;
+	width: 100%;
+	opacity: 0;
+	-webkit-transform: translate3d(0,10px,0);
+	transform: translate3d(0,10px,0);
+}
+
+figure.effect-sadie:hover h2 {
+	color: #fff;
+	-webkit-transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
+	transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
+}
+
+figure.effect-sadie:hover figcaption::before ,
+figure.effect-sadie:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+@media screen and (max-width: 50em) {
+	.figure-grid {
+		padding: 0 10px;
+		text-align: center;
+	}
+	.figure-grid figure {
+		display: inline-block;
+		float: none;
+		margin: 10px auto;
+		width: 100%;
+	}
+}
