@@ -124,6 +124,17 @@ Version:        0.1.0
     color: #fff !important;
     background-color: #006a96 !important;
 }
+#searchform .form-control {
+    height: 30px !important;
+    padding: 0px 12px !important;
+}
+#searchform .btn {
+    padding: 0px 12px !important;
+}
+#searchform .btn {
+    height: 30px !important;
+    width: 45px !important;
+}
 .carousel {
     margin-bottom: 0px !important;
 }

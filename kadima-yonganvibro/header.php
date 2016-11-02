@@ -25,7 +25,7 @@
 			<!-- Logo & Contact Info -->
 			<div class="row ">
 				<div class="wl_rtl" >
-					<ul class="head_r">
+					<!--ul class="head_r">
 						<li>
 							<span><i class="ico"></i>Language<i class="ico2"></i></span>
 					       	<div class="language" style="display: none;">
@@ -33,7 +33,7 @@
 						        <a href="#" target="_blank">中文</a>
 					       </div>
 					   </li>
-				   </ul>
+				   </ul-->
    					<div class="logo">
    						<a href="<?php echo esc_url(home_url( '/' )); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
    						<?php if($wl_theme_options['upload_image_logo']){ ?>
@@ -73,13 +73,15 @@
 		<div class="container navbar-container" >
 			<nav class="navbar navbar-default " role="navigation">
 				<div id="menu" class="collapse navbar-collapse ">
-				<?php wp_nav_menu( array(
+					<?php wp_nav_menu( array(
 						'theme_location' => 'primary',
 						'menu_class' => 'nav navbar-nav',
 						'fallback_cb' => 'kadima_fallback_page_menu',
 						'walker' => new kadima_nav_walker(),
-						)
-						);	?>
+						));?>
+					<div style="float: right;">
+						<?php get_search_form(); ?>
+					</div>
 				</div>
 			</nav>
 		</div>
