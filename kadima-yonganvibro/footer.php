@@ -42,7 +42,7 @@
                      } ?>
                 <div class="visible-lg-2 visible-md-2"></div>
                 <div class="col-md-6 col-sm-12 kadima_footer_copyright_info" style="padding-bottom:20px;padding-top:20px;float:right;">
-                    <h3>
+                    <h3 style="color:#fff;">
                         <?php if($wl_theme_options['footer_customizations']) {
                             echo esc_attr($wl_theme_options['footer_customizations']);
                         } ?>
@@ -51,6 +51,7 @@
                     <p><?php if($wl_theme_options['info_tel']) { echo esc_attr($wl_theme_options['info_tel']); } ?></p>
                     <p><?php if($wl_theme_options['info_fax']) { echo esc_attr($wl_theme_options['info_fax']); } ?></p>
                     <p><?php if($wl_theme_options['info_mail']) { echo esc_attr($wl_theme_options['info_mail']); } ?></p>
+                    <p>Power by: <a href="https://www.yunclever.com" target="_blank" style="color:#fff;">YunClever</a></p>
                 </div>
     		</div>
     	</div>
