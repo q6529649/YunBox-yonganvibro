@@ -18,6 +18,8 @@
 		</div>
 	</div>	
 </div>
+
+
 <div class="container">	
 	<div class="row kadima_blog_wrapper">
 	<div class="col-md-8">
